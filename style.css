@@ -12,6 +12,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 15px;
+    background-color: #001A1A;
 }
 
 .upperlinks {
@@ -49,4 +50,36 @@ a:hover {
 a {
     text-decoration: none;
     color: #E5E7EB;
+}
+
+h3 {
+    text-align: center;
+}
+
+.collections img {
+    width: 15rem;
+}
+
+.collections {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    text-align: center;
+    margin-bottom: 8%;
+}
+
+.collection {
+    padding-top: 20px;
+}
+
+.collection:hover {
+    background-color: #09DEDE;
+    width: 19rem;
+}
+
+button {
+    background-color: #3882F6;
+    border-radius: 20%;
+    border: solid #3882F6;
 }
