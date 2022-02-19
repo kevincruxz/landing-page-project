@@ -1,9 +1,52 @@
+body {
+    margin: 0%;
+}
+
+.header {
+    background-color: #000000;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
 .linkbar {
     display: flex;
     justify-content: space-between;
+    padding: 15px;
+}
+
+.upperlinks {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+a:hover {
+    background-color: #0D7878;
 }
 
 .logo {
     width: 5rem;
     height: 4rem;
+}
+
+.headimg {
+    width: 15rem;
+}
+
+.intro h1 {
+    font-weight: extra-bold;
+    font-size: 48px;
+    color: #F9FAF8;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 70px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
 }
