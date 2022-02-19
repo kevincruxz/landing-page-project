@@ -1,0 +1,9 @@
+.linkbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 5rem;
+    height: 4rem;
+}
