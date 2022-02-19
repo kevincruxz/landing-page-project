@@ -52,7 +52,7 @@ a {
     color: #E5E7EB;
 }
 
-h3 {
+.colltitle {
     text-align: center;
 }
 
@@ -78,10 +78,12 @@ h3 {
     width: 19rem;
 }
 
-button {
-    background-color: #3882F6;
-    border-radius: 20%;
-    border: solid #3882F6;
+.explore-button {
+    background-color: #000000;
+    border-radius: 3px;
+    border: solid #E5E7EB;
+    color: #E5E7EB;
+    padding: 3px;
 }
 
 .testimonials img {
@@ -92,6 +94,7 @@ button {
 .testimonies {
     background-color: #E5E7EB;
     padding: 60px;
+    text-align: center;
 }
 
 .testimonials {
@@ -127,6 +130,27 @@ button {
 
 .commentary-man {
     border-top: none;
+}
+
+.signup-card {
+    width: 656px;
+    height: 100px;
+    background-color: #3882F6;
+    display: flex;
+    margin: 64px auto;
+    padding: 20px;
+    color: #E5E7EB;
+    border-radius: 25px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.signup-button {
+    border-radius: 5px;
+    border: solid #E5E7EB;
+    padding: 6px 20px;
+    background-color: #3882F6;
+    color: #E5E7EB;
 }
 
 .footer {
