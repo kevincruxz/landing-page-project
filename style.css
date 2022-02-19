@@ -66,7 +66,7 @@ h3 {
     align-items: center;
     gap: 20px;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 5%;
 }
 
 .collection {
@@ -82,4 +82,57 @@ button {
     background-color: #3882F6;
     border-radius: 20%;
     border: solid #3882F6;
+}
+
+.testimonials img {
+    width: 17rem;
+    border: solid 1px;
+}
+
+.testimonies {
+    background-color: #E5E7EB;
+    padding: 60px;
+}
+
+.testimonials {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonials-right {
+    display: flex;
+    flex-direction: column;
+}
+
+.testimonial-wom, .testimonial-man {
+    display: flex;
+    flex: 1;
+}
+
+.commentary-one {
+    width: 17rem;
+    border: solid 1px;
+    margin-top: -5px;
+    background-color:#10A3A3;
+}
+
+.commentary-wom, .commentary-man {
+    border: solid 1px;
+    background-color: #10A3A3;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+
+.commentary-man {
+    border-top: none;
+}
+
+.footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
 }
